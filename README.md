@@ -55,3 +55,22 @@ The reason I developed this project is quite personal. I needed to download a Yo
 
 ```bash
 pip install -r requirements.txt
+exit
+
+### Usage
+
+1. Ensure FFmpeg is installed on your system (refer to the instructions above).
+2. Run the Flask application:
+
+```bash
+python app.py
+exit
+
+3.Run the Flask application:
+```bash
+python app.py
+exit
+
+4.Open a web browser and go to http://localhost:5000 to start downloading YouTube videos.
+
+By following the steps above, you should be able to use the YouTube HD Downloader application seamlessly.
