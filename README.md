@@ -48,14 +48,7 @@ The reason I developed this project is quite personal. I needed to download a Yo
 
 ---
 
-### Usage
 
-1. Clone or download this repository.
-2. Install the required dependencies using the following command:
-
-```bash
-pip install -r requirements.txt
-exit
 
 ### Usage
 
@@ -64,13 +57,16 @@ exit
 
 ```bash
 python app.py
-exit
 
+
+---
 3.Run the Flask application:
 ```bash
 python app.py
-exit
+
+---
 
 4.Open a web browser and go to http://localhost:5000 to start downloading YouTube videos.
+---
 
 By following the steps above, you should be able to use the YouTube HD Downloader application seamlessly.
