@@ -1,0 +1,21 @@
+# Start from a base Python image
+FROM python:3.9-slim
+
+# Install ffmpeg
+RUN apt-get update && apt-get install -y ffmpeg
+
+# Set the working directory
+WORKDIR /app
+
+# Copy requirements.txt and install dependencies
+COPY requirements.txt /app/requirements.txt
+RUN pip install -r requirements.txt
+
+# Copy the rest of the application
+COPY . /app
+
+# Expose the port that the app will run on
+EXPOSE 5000
+
+# Command to run the app
+CMD ["python", "app.py"]
